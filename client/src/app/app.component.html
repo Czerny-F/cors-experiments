@@ -3,6 +3,8 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
+  <button mat-raised-button color="primary" (click)="onGetBoop($event)">GET</button>
+  <button mat-raised-button color="primary" (click)="onPostBoop($event)">POST</button>
 </div>
 
 <router-outlet></router-outlet>
